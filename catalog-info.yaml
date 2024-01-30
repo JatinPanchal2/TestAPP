@@ -1,12 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: User
 metadata:
-  name: "TestAPP"
-  links:
-    - url: https://google.com
-      title: My Dashboard
-      icon: dashboard
+  name: jdoe
 spec:
-  type: service
-  owner: user:guest
-  lifecycle: experimental
+  profile:
+    displayName: jatin panchal
+    email: jatin.panchal@regeneron.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [team-b, employees]
